@@ -1,0 +1,30 @@
+name: Sync market
+
+on:
+  schedule:
+    - cron: '0 3 * * *'   # 每天 03:00 UTC
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Sync
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/sync-market.mjs --out plugins.json
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add plugins.json
+          git diff --staged --quiet || git commit -m "chore: sync market ($(date -u +%Y-%m-%d))"
+          git push
