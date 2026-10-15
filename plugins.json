@@ -2,7 +2,7 @@
   "name": "cuckoo-plugin-market",
   "url": "https://github.com/8555uuy/cuckoo-plugin-market",
   "source": "topic:cuckoo-plugin",
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "count": 10,
   "categories": {
     "platform": {
@@ -45,7 +45,7 @@
       "repo": "cuckoo-plugin-ai-gateway",
       "name": "AI 网关",
       "url": "https://github.com/8555uuy/cuckoo-plugin-ai-gateway",
-      "description": "Cuckoo Code 插件：把 AI 网页版暴露成 OpenAI 兼容 API（局域网可访问）",
+      "description": "【仅限作者 fork】默认绑 0.0.0.0 + 密码 admin，用前请改。官方版装了会 503（缺 __cuckooRunGatewayQuery 入口）。把 AI 网页版变成 OpenAI 兼容 API。",
       "category": "other",
       "version": "1.0.0",
       "minAppVersion": "0.8.8",
@@ -55,8 +55,8 @@
       "license": "",
       "archived": false,
       "defaultBranch": "main",
-      "pushedAt": "2026-10-11T12:32:09Z",
-      "updatedAt": "2026-10-11T12:49:20Z",
+      "pushedAt": "2026-10-14T14:15:04Z",
+      "updatedAt": "2026-10-14T14:15:10Z",
       "cover": "https://opengraph.githubassets.com/1/8555uuy/cuckoo-plugin-ai-gateway",
       "screenshots": []
     },
@@ -76,8 +76,8 @@
       "license": "",
       "archived": false,
       "defaultBranch": "main",
-      "pushedAt": "2026-10-11T12:32:01Z",
-      "updatedAt": "2026-10-11T12:49:28Z",
+      "pushedAt": "2026-10-14T14:14:59Z",
+      "updatedAt": "2026-10-14T14:15:07Z",
       "cover": "https://opengraph.githubassets.com/1/8555uuy/cuckoo-plugin-agent-mode",
       "screenshots": []
     },
