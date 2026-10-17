@@ -2,8 +2,8 @@
   "name": "cuckoo-plugin-market",
   "url": "https://github.com/8555uuy/cuckoo-plugin-market",
   "source": "topic:cuckoo-plugin",
-  "updated": "2026-10-16",
-  "count": 10,
+  "updated": "2026-10-17",
+  "count": 11,
   "categories": {
     "platform": {
       "en": "Platform",
@@ -143,6 +143,29 @@
       "updatedAt": "2026-10-02T06:50:25Z",
       "cover": "https://opengraph.githubassets.com/1/27584/cuckoo-plugin-zhipu",
       "screenshots": []
+    },
+    {
+      "id": "ShiYao3286/cuckoo-plugin-room",
+      "owner": "ShiYao3286",
+      "repo": "cuckoo-plugin-room",
+      "name": "多 AI 同室",
+      "url": "https://github.com/ShiYao3286/cuckoo-plugin-room",
+      "description": "把 Cuckoo 的多个窗口当成同一房间里的多位参与者：@ 指定谁或全体来对话、下任务，支持图片与文件上传。跨平台多 AI 聊天室。",
+      "category": "platform",
+      "version": "0.18.0",
+      "minAppVersion": "0.8.8",
+      "stars": 0,
+      "forks": 0,
+      "language": "JavaScript",
+      "license": "MIT",
+      "archived": false,
+      "defaultBranch": "main",
+      "pushedAt": "2026-10-17T07:27:34Z",
+      "updatedAt": "2026-10-17T07:27:37Z",
+      "cover": "http://x/y.png",
+      "screenshots": [
+        "http://x/y.png"
+      ]
     },
     {
       "id": "jiangchengnay/cuckoo-shanhai",
