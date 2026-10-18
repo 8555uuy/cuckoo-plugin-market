@@ -2,7 +2,7 @@
   "name": "cuckoo-plugin-market",
   "url": "https://github.com/8555uuy/cuckoo-plugin-market",
   "source": "topic:cuckoo-plugin",
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "count": 11,
   "categories": {
     "platform": {
@@ -152,7 +152,7 @@
       "url": "https://github.com/ShiYao3286/cuckoo-plugin-room",
       "description": "把 Cuckoo 的多个窗口当成同一房间里的多位参与者：@ 指定谁或全体来对话、下任务，支持图片与文件上传。跨平台多 AI 聊天室。",
       "category": "platform",
-      "version": "0.18.0",
+      "version": "0.21.0",
       "minAppVersion": "0.8.8",
       "stars": 0,
       "forks": 0,
@@ -160,8 +160,8 @@
       "license": "MIT",
       "archived": false,
       "defaultBranch": "main",
-      "pushedAt": "2026-10-17T07:27:34Z",
-      "updatedAt": "2026-10-17T07:27:37Z",
+      "pushedAt": "2026-10-17T08:09:19Z",
+      "updatedAt": "2026-10-17T08:09:22Z",
       "cover": "http://x/y.png",
       "screenshots": [
         "http://x/y.png"
