@@ -2,7 +2,7 @@
   "name": "cuckoo-plugin-market",
   "url": "https://github.com/8555uuy/cuckoo-plugin-market",
   "source": "topic:cuckoo-plugin",
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "count": 11,
   "categories": {
     "platform": {
@@ -55,8 +55,8 @@
       "license": "",
       "archived": false,
       "defaultBranch": "main",
-      "pushedAt": "2026-10-21T14:34:31Z",
-      "updatedAt": "2026-10-21T14:38:05Z",
+      "pushedAt": "2026-10-23T11:19:01Z",
+      "updatedAt": "2026-10-23T11:19:05Z",
       "cover": "https://opengraph.githubassets.com/1/8555uuy/cuckoo-plugin-ai-gateway",
       "screenshots": []
     },
